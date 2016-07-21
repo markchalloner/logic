@@ -55,7 +55,7 @@ if ($len > $lenMax) {
 }
 
 $result = true;
-for ($i = 0, $l = $len**2; $i < $l; $i++) {
+for ($i = 0, $l = $len**2 - 1; $i < $l; $i++) {
         $bools = [];
 	$compareExpression = '';
 	$compare = '';
